@@ -43,9 +43,9 @@ body {
     min-height: 100vh;
     background-color: var(--bg-color);
     color: var(--text-color);
-
-
 }
+
+/* Navigation bar */
 
 header {
     position: fixed;
@@ -86,7 +86,6 @@ header {
 }
 
 .navbar a.active {
-    /* color: var(--main-color); */
     color: #00FFA7;
 }
 
@@ -104,6 +103,8 @@ header {
     margin-right: 30px;
 }
 
+/* responsive navbar start*/
+
 @media (max-width:1280px) {
     header {
         padding: 14px 2%;
@@ -117,7 +118,7 @@ header {
 
 }
 
-@media (max-width:884px) {
+@media (max-width:1025px) {
     #menu-icon {
         display: block;
     }
@@ -164,12 +165,15 @@ header {
     }
 }
 
-/* responsive end */
+/* responsive navbar end */
+
 .line {
     background-color: rgb(55, 55, 55);
     height: 1px;
     width: 100%;
 }
+
+/* First section: heading */
 
 
 .heading {
@@ -220,10 +224,9 @@ header {
     float: right;
     margin: 0px 20px 20px 0px;
     padding: 5px;
-
 }
 
-/* services */
+/* services section  */
 .services {
     background-color: #FFFFFF;
     display: flex;
@@ -231,7 +234,6 @@ header {
     align-items: start;
     padding: 90px 13% 20px 12%;
     color: black;
-
 }
 
 .services h1 {
@@ -239,7 +241,6 @@ header {
     align-items: start;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-
 }
 
 .services h6 {
@@ -266,7 +267,6 @@ header {
     padding: 15px 12%;
     padding-bottom: 100px;
     font-family: "Poppins", sans-serif;
-
 }
 
 .container .box-container {
@@ -282,7 +282,6 @@ header {
     border: 2px solid black;
     width: 265px;
     height: 380px;
-
 }
 
 .container .box-container .box img {
@@ -323,7 +322,6 @@ header {
     float: right;
     margin-right: 10px;
     font-family: "Poppins", sans-serif;
-
 }
 
 .explorebtn:hover {
@@ -338,7 +336,6 @@ header {
     border-radius: 50%;
     padding-left: 3px;
     padding-right: 3px;
-
 }
 
 .box1 {
@@ -362,8 +359,9 @@ header {
     width: 100%;
     border: 1px solid black;
     margin-bottom: 10px;
-
 }
+
+/* footer */
 
 footer {
     background-color: black;
@@ -388,6 +386,8 @@ footer p {
     font-size: 14px;
 }
 
+/* responive starts */
+
 @media (max-width:884px) {
     .poppins-extralight {
         font-size: 50px;
@@ -408,7 +408,7 @@ footer p {
 
     .services i {
         font-size: 19px;
-        padding: 10px ;
+        padding: 10px;
         flex-wrap: nowrap;
     }
 
@@ -439,9 +439,10 @@ footer p {
         padding: 2px;
 
     }
+
     .services i {
         font-size: 19px;
-        padding:60px 10px ;
+        padding: 60px 10px;
     }
 
 }
